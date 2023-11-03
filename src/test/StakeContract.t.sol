@@ -8,6 +8,7 @@ import "./mocks/MyERC20.sol";
 contract StakeContractTest is Test {
     MyERC20 public myERC20;
     StakeContract public stakeContract;
+    
     address public constant MVPWAIR =
         address(0x71bDd3e52B3E4C154cF14f380719152fd00362E7);
 

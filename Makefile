@@ -46,6 +46,5 @@ verify-goerli :; @forge verify-contract --chain-id 5 --num-of-optimizations 2000
 
 # This is the private key of account from the mnemonic from the "make anvil" command
 deploy-anvil :; @forge script script/${contract}.s.sol:Deploy${contract} --rpc-url http://localhost:8545  --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast 
-
 deploy-all :; make deploy-${network} contract=APIConsumer && make deploy-${network} contract=KeepersCounter && make deploy-${network} contract=PriceFeedConsumer && make deploy-${network} contract=VRFConsumerV2
 

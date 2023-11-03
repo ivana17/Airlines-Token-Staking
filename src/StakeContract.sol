@@ -35,9 +35,11 @@ contract StakeContract is Ownable {
         if (balances[user][token].hasStaked) {
             if (!isLockedPeriod(user, token))
                 revert LockedPeriod("Tokens should be collected first.");
+
             balances[user][token].amount =
                 balances[user][token].amount +
                 amount;
+                
             balances[user][token].stakingTime = block.timestamp;
         } else {
             balances[user][token] = Stake(true, false, amount, block.timestamp);
