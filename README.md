@@ -1,14 +1,4 @@
-### Learning Materials
-
-#### DeFi
-DeFi stands for Decentralized Finance. Here is a collection of good video materials for DeFi. Ping Andrej for more resources if you are interested in this topic.
-
-#### Foundry
-Foundry is the smart contract development framework for building, testing, and deploying smart contracts. Test and scripts are written in Solidity.
-If you are more of a visual learner, we will schedule a Foundry tutorial session this week.
-
-#### Gas Optimizations
-Every single action that mutates state on EVM costs gas. When the number of users that use the blockchain increases, gas prices also increase. Useful resources: EVM Codes, Mastering Ethereum Book, Ethereum Yellow Paper.
+# Airlines Token Staking
 
 ### Task 3.1 - Staking
 
@@ -35,6 +25,19 @@ Learning about writing tests in Foundry
 Learning about Gas optimizations
 
 Gas snapshots
+
+### Learning Materials
+
+#### DeFi
+DeFi stands for Decentralized Finance. Here is a collection of good video materials for DeFi. Ping Andrej for more resources if you are interested in this topic.
+
+#### Foundry
+Foundry is the smart contract development framework for building, testing, and deploying smart contracts. Test and scripts are written in Solidity.
+If you are more of a visual learner, we will schedule a Foundry tutorial session this week.
+
+#### Gas Optimizations
+Every single action that mutates state on EVM costs gas. When the number of users that use the blockchain increases, gas prices also increase. Useful resources: EVM Codes, Mastering Ethereum Book, Ethereum Yellow Paper.
+
 
 
 ## Foundry Starter Kit
