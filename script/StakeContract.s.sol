@@ -6,6 +6,7 @@ import "../src/StakeContract.sol";
 
 contract DeployStakeContract is Script {
     function run() external {
+        
         vm.startBroadcast();
 
         new StakeContract(
