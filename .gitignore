@@ -1,0 +1,14 @@
+cache/
+out/
+.gas-snapshot
+.vscode/
+.env
+.env.example
+.encryptedKey
+broadcast/
+
+node_modules
+package-lock.json
+
+.DS_Store
+src/.DS_Store
